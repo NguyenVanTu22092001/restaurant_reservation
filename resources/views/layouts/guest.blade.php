@@ -66,11 +66,11 @@
             </div>
         </nav>
     </div>
-    <div class="container mx-auto">
-        <div class="font-sans text-gray-900 antialiased min-h-screen">
-            {{ $slot }}
-        </div>
+
+    <div class="font-sans text-gray-900 antialiased min-h-screen">
+        {{ $slot }}
     </div>
+
     <footer class="bg-gray-800 border-t border-gray-200">
         <div class="container flex flex-wrap items-center justify-center px-4 py-8 mx-auto lg:justify-between">
             <div class="flex flex-wrap justify-center">
